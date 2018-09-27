@@ -1,6 +1,10 @@
 tp1: main.cpp
 	g++ main.cpp -o tp1.out
 
+run: main.cpp
+	g++ main.cpp -o tp1.out
+	./tp1.out
+
 setup:
 	# Atualiza os repositorios do linux
 	sudo apt-get update
