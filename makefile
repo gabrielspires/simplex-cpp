@@ -3,4 +3,4 @@ tp1: main.cpp
 
 run: main.cpp
 	g++ -I eigen/ main.cpp -o tp1.out
-	./tp1.out	
+	./tp1.out entrada.txt saida.txt
